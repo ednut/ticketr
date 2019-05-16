@@ -42,7 +42,7 @@
                                         <li ng-class="{ active: isActive('/movies')}"><a ui-sref="movies">Movies tickets</a></li>
                                         <li ng-class="{ active: isActive('/buy-a-deal')}"><a ui-sref="BuyAdeal">Buy a deal</a></li>
                                         <li ng-class="{ active: isActive('/book-a-talent')}"><a ui-sref="BookAtalent">Book a talent</a></li>
-                                        <li ng-class="{ active: isActive('/book-a-talent')}"><a href="javascript:void(0)">Sign up</a></li>
+                                        <li ng-class="{ active: isActive('/book-a-talent')}"><a data-toggle="modal" data-target="#exampleModal" href="javascript:void(0)">Sign up</a></li>
                                         <li ng-class="{ active: isActive('//create-event')}" class="create"><a ui-sref="CreateEvent">Create Event</a></li>
                                     </ul>
                                     <ul>
@@ -62,7 +62,7 @@
                         <li><a class="close-me clearfix animate bounceIn"  ui-sref="movies"><span class="text">Movies tickets</span></a></li>
                         <li><a class="close-me clearfix animate bounceIn"  ui-sref="BuyAdeal"><span class="text">Buy a deal</span></a></li>
                         <li><a class="close-me clearfix animate bounceIn"  ui-sref="BookAtalent"><span class="text">Book a talent</span></a></li>
-                        <li><a class="close-me clearfix animate bounceIn"  href="javascript:void(0)"><span class="text">Sign up</span></a></li>
+                        <li><a class="close-me clearfix animate bounceIn" data-toggle="modal" data-target="#exampleModal"  href="javascript:void(0)"><span class="text">Sign up</span></a></li>
                         <li><a class="close-me clearfix animate bounceIn"  ui-sref="CreateEvent"><span class="text">Create Event</span></a></li>
                     </ul>
                 </div>
@@ -118,6 +118,58 @@
 
                 </footer>
 
+        </div>
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="ticketr-signup">
+                    <div class="logo">
+                        <img src="images/ticketr_logo_transparent.png" alt="">
+                    </div>
+                    <div class="title">Sign up to start selling your tickets, in minutes!</div>
+                    <div class="form-content">
+                        <form action="">
+                            <div class="form-wrap">
+                                <label for="">Name of Partner</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-wrap">
+                                <label for="">Business Address</label>
+                                <textarea name=""></textarea>
+                            </div>
+                            <div class="form-wrap">
+                                <label for="">Business Phone Number</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-wrap">
+                                <label for="">Email</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-wrap">
+                                <label for="">Website</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-wrap">
+                                <label for="">Contact Person ( not mandatory )</label>
+                                <input type="text">
+                            </div>
+                            <button>Create account</button>
+                        </form>
+                    </div>
+                    <div class="terms">
+                        BY CREATING AN ACCOUNT, YOU AGREE TO THE TICKETR SERVICES AGREEMENT AND <a href="#"> <strong>TERMS OF SERVICE</strong> </a>
+                    </div>
+                    <div class="with-account">
+                        Already registered? Please <a class="button" href="#">Sign in</a>
+                    </div>
+                    <div class="without-account">
+                        Looking to buy tickets? lets <a class="button" href="#">Shop tickets</a>
+                    </div>
+                </div>
+              </div>
+            </div>
         </div>
 
 

@@ -397,6 +397,120 @@ header .menu-icon i {
   outline: none;
   text-align: center;
 }
+.modal-content {
+  background: transparent;
+  border: none;
+}
+.modal-content .ticketr-signup {
+  position: relative;
+  text-align: center;
+}
+.modal-content .ticketr-signup .logo img {
+  width: 140px;
+}
+.modal-content .ticketr-signup .title {
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  padding: 0 10px;
+  margin: 25px 0;
+}
+.modal-content .ticketr-signup .form-content {
+  background: #fff;
+  padding: 50px;
+}
+.modal-content .ticketr-signup .form-content .form-wrap {
+  position: relative;
+  margin-bottom: 5px;
+}
+.modal-content .ticketr-signup .form-content .form-wrap label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 1px;
+  text-align: left;
+}
+.modal-content .ticketr-signup .form-content .form-wrap input {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  border: 2px solid #999;
+  background: #fff;
+}
+.modal-content .ticketr-signup .form-content .form-wrap textarea {
+  width: 100%;
+  max-height: 100px;
+  outline: none;
+  padding: 10px;
+  border: 2px solid #999;
+  background: #fff;
+}
+.modal-content .ticketr-signup .form-content button {
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: 4px 15px;
+  border-radius: 6px;
+  background: #ffcd37;
+  margin-right: 10px;
+  outline: none;
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.modal-content .ticketr-signup .terms {
+  padding: 40px 10px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.modal-content .ticketr-signup .terms a {
+  color: #fff;
+}
+.modal-content .ticketr-signup .with-account {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ffbc36;
+}
+.modal-content .ticketr-signup .with-account a.button {
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: 2px 15px;
+  border-radius: 6px;
+  background: #ffcd37;
+  margin-right: 10px;
+  outline: none;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 20px;
+  color: #000;
+  font-size: 15px;
+}
+.modal-content .ticketr-signup .without-account {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.modal-content .ticketr-signup .without-account a.button {
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: 2px 15px;
+  border-radius: 6px;
+  background: #ffcd37;
+  margin-right: 10px;
+  outline: none;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 20px;
+  color: #000;
+  font-size: 15px;
+}
+.modal-backdrop.show {
+  opacity: .8!important;
+}
 footer {
   height: auto;
   line-height: 5rem;
