@@ -24,6 +24,11 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: "partials/event.html"
     })
 
+    .state("singleEvent", {
+      url: "/event",
+      templateUrl: "partials/single-event.html"
+    })
+
     .state("movies", {
       url: "/movies-tickets",
       templateUrl: "partials/movies.html"
